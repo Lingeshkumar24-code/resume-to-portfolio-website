@@ -11,11 +11,17 @@ dist-ssr
 
 # Environment files
 .env
-.env.*
+.env.local
+.env.development
+.env.production
 backend/.env
-backend/.env.*
+backend/.env.local
+backend/.env.development
+backend/.env.production
 frontend/.env
-frontend/.env.*
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
 
 # Runtime uploads
 backend/uploads/*
