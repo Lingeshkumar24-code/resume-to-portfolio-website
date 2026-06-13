@@ -104,7 +104,7 @@ resume-website/
 3. Use the included `render.yaml` blueprint or set these values manually:
    - Root directory: `backend`
    - Build command: `npm install && cd ../frontend && npm install && npm run build`
-   - Start command: `npm start`
+   - Start command: `yarn start`
 4. Add these environment variables in Render:
    - `MONGODB_URI`
    - `JWT_SECRET`

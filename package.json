@@ -1,0 +1,12 @@
+{
+  "name": "resume-to-portfolio-website",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start": "yarn workspace resume2portfolio-backend start",
+    "postinstall": "yarn workspace frontend build"
+  }
+}

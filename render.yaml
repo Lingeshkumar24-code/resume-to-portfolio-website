@@ -5,7 +5,7 @@ services:
     region: oregon
     rootDir: backend
     buildCommand: npm install && cd ../frontend && npm install && npm run build
-    startCommand: npm start
+    startCommand: yarn start
     autoDeploy: true
     envVars:
       - key: NODE_ENV
